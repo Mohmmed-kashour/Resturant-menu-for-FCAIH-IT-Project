@@ -1,8 +1,8 @@
 function addToCart() {
-  let span = document.getElementById("itemsInCart"); // نجيب الـ span
-  let currentNumber = parseInt(span.innerText);   // ناخد الرقم اللي جواه ونحوله لرقم حقيقي (مش نص)
-  currentNumber += 1;                             // نزود 1
-  span.innerText = currentNumber;                 // نرجع نحط الرقم الجديد في الـ span
+  let span = document.getElementById("itemsInCart");
+  let currentNumber = parseInt(span.innerText);
+  currentNumber += 1;                             
+  span.innerText = currentNumber;                 
 }
 function completePurchase() {
   alert("Thank you for your purchase!");
